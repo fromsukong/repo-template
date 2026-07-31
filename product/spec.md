@@ -22,7 +22,7 @@ Replace me: what this repository is for, what it does, and its boundaries within
 ## 3. Directory Structure
 ```
 {repo-name}/
-├── product/       # Spec & tasks (synced into products-dev via sparse submodule)
+├── product/       # Spec (synced into products-dev via sparse submodule)
 └── src/           # Source code
 ```
 
@@ -30,4 +30,3 @@ Replace me: what this repository is for, what it does, and its boundaries within
 
 ## 4. Integration Contracts
 - **Products-dev**: registered as a sparse submodule at `products-dev/repos/{repo-name}` (checks out `product/` only).
-- **Task tracking**: tasks live in `product/task/active/` (frontmatter per `task-template.md`) and are mirrored as GitHub issues.
