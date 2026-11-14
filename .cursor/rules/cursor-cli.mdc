@@ -1,0 +1,10 @@
+---
+description: How Cursor CLI (Grok 4.7) works in fromsukong/repo-template
+alwaysApply: true
+---
+
+# repo-template
+
+You are Cursor CLI on Grok 4.7. Follow `AGENTS.md`.
+
+Keep the `{placeholders}`. Do not turn this template into a real product. New repos keep `product/spec.md`, `AGENTS.md`, and this rule file. Do not commit or push unless asked.
