@@ -13,6 +13,8 @@ Short description of this repository and its role in the `@fromsukong` ecosystem
 ## Structure
 ```
 <repo-name>/
+├── AGENTS.md             # Instructions for coding agents, including Cursor CLI
+├── .cursor/rules/        # Always-on Cursor CLI rules
 ├── product/              # Product spec (tracked via products-dev sparse submodule)
 │   └── spec.md           # Repository specification
 └── src/                  # Codebase source code (excluded from products-dev)
